@@ -1,0 +1,30 @@
+// Place all the styles related to the Customers controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.customer{
+	border: 1px solid grey;
+	margin: 10px;
+	padding: 10px;
+	width: 400px;
+	height: 470px;
+	background-color:white;
+	.customize{
+		margin-left:350px;
+	}
+
+	h3{
+		width:30px;
+	}	
+
+	img{
+		width: 200px;
+		height: 300px;
+	}
+
+	float:left;
+}
+
+.navItems{
+	margin-bottom:5px;
+}
