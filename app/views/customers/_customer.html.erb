@@ -1,11 +1,4 @@
-<h1>All customers</h1>
 
-<div class="navItems">
-	<%= link_to 'New Customer', new_customer_path %> |
-	<%= link_to 'Missing Email', '#' %>
-</div>
-
-<% @customers.each do |customer| %>
 
     <div class="customer">
     	<div class="customize"><%= link_to 'edit', edit_customer_path(customer) %> |
@@ -25,4 +18,3 @@
 
     	<p><span style="font-weight:bold">Notes:</span> <%= customer.notes %></p>
  	</div>
-<% end %>

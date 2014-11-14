@@ -1,0 +1,8 @@
+<h1>Alphabetized Customers</h1>
+<div class="navItems">
+	<%= link_to 'New Customer', new_customer_path %> |
+	<%= link_to 'Missing Email', '#' %>
+</div>
+
+
+<%= render partial: 'customers/customer', collection: @stuff, as: :customer %>
