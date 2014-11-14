@@ -1,2 +1,10 @@
 <h1>Finder</h1>
+
+<div class="navItems">
+	<%= link_to 'Home', root_path %> -
+	<%= link_to 'New Customer', new_customer_path %> -
+	<%= link_to 'Missing Email', missing_email_path %> -
+	<%= link_to 'Alphabetized', alphabetized_path %>
+</div>
+
 <%= render @customers %>
