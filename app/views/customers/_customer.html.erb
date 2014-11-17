@@ -14,7 +14,13 @@
   
   	<% if customer.email.present? %>
   		<p><span style="font-weight:bold">Email:</span> <%= customer.email %></p>
-<% end %>
+    <% end %>
+
+    <% if customer.province_id.present? %>
+      <p><span style="font-weight:bold">Province:</span> <%= customer.province_id %></p>
+    <% elsif %>
+       <p><span style="font-weight:bold">Province:</span> None</p>
+    <% end %>
 
 	<p><span style="font-weight:bold">Notes:</span> <%= customer.notes %></p>
 </div>

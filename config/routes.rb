@@ -4,6 +4,10 @@ Rails.application.routes.draw do
   get 'missing_email' => 'finder#missing_email'
   get 'alphabetized' => 'finder#alphabetized'
   
+  #To meet the pictures requirement this is necessary
+  # but Its sorta pointless..
+  #get 'finder' => 'finder#index'
+
   #root to: 'customers#index'
   root to: 'finder#index'
 

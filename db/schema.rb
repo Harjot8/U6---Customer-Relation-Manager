@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20141113225319) do
+ActiveRecord::Schema.define(version: 20141117170240) do
 
   create_table "customers", force: true do |t|
     t.string   "fullname"
@@ -21,6 +21,7 @@ ActiveRecord::Schema.define(version: 20141113225319) do
     t.text     "notes"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "province_id"
   end
 
 end
